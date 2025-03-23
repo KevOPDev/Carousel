@@ -17,7 +17,7 @@ export const getText = async (): Promise<TextResponse> => {
 
 export const getTextExample = async (): Promise<string> => {
   try {
-    const response = await fetch('/text.txt');
+    const response = await fetch('/Carousel/text.txt');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
